@@ -53,8 +53,7 @@ cursor:default;
 
 .container-fluid > .row > .col-4{
     background-color: rgb(233, 232, 232);
-    border-right: 2px solid rgb(255, 255, 255);
-    border-left: 2px solid rgb(255, 255, 255);
+
 }
 
 .container-fluid > .row > .col-4 > h3 {
@@ -64,12 +63,13 @@ cursor:default;
 
 #paragrafo {
     padding: 20px;
-    color:rgb(60, 14, 78)
+    color:rgb(60, 14, 78);
+    font-size: 1em;
 }
 
 .carrossel {
     margin:10px auto;
-    width: 90%;
+    width: 100%;
     min-width: 60%;
     box-shadow: 1px 1px 5px 5px rgba(0, 0, 0, 0.5);
     border: 3px solid #757474;
