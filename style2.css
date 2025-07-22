@@ -12,6 +12,8 @@ body {
     font-family: serif, sans-serif;
 }
 
+
+
 .titulo {
     font-size: 50px;
     margin-top: -60px;
@@ -43,6 +45,16 @@ margin: 40px -100px;
 padding: 10px;
 }
 
+.form-control:focus {
+    outline: none;
+    box-shadow: none;
+   border-color: rgb(0, 0, 0);
+}
+
+.botao:focus {
+    outline: none;
+    box-shadow: none;
+}
 
 
 
