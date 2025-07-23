@@ -62,3 +62,9 @@ h2 {
     margin: 30px auto;
     text-align: center;
 }
+
+.heclogo {
+    width: 30%;
+    margin: -50px auto;
+    display: block;
+}

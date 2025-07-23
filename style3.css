@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.center {
+    display: inline-flex;
+    flex-wrap: nowrap;
+    margin: 0 auto;
+    padding: 0 2%;
+    width: 100%;
+  
+}
+
+header {
+    padding: 20px 0;
+}
+
+.logo {
+    width: 60%;
+    max-width: 400px;
+    margin-left: 20px;
+}
+
+.menu {
+    width: 70%;
+    text-align: right;
+    margin-top: 40px;
+    margin-right: 30px;
+}
+
+.menu a {
+    color: rgb(163, 73, 13);
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}
+
+.menu a:not(.notbarra) {
+    color: rgb(0, 0, 0);
+    border-right: 1px solid rgb(0, 0, 0);
+    padding-right: 10px;
+}
