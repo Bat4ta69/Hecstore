@@ -1,15 +1,17 @@
 * {
     margin: 0;
     padding: 0;
+box-sizing: border-box;
 }
 
-html, body {
-    height: 90%;
-}
+
 
 body {
-    
+    width: 100%;
+    background-color:rgb(175, 175, 175);
     font-family: serif, sans-serif;
+display: flex;
+justify-content: center;
 }
 
 
@@ -21,12 +23,19 @@ body {
 }
 
 
+
 .loginarea {
     width: 90%;
     height: 100%;
     margin: 80px auto;
     max-width: 800px;
 
+}
+
+
+
+.imglogo {
+    padding-bottom: 40px;
 }
 
 .emailarea {
@@ -37,12 +46,16 @@ body {
     border-radius: 10px 10px 10px 10px;
     box-shadow: 0px 0px 20px 0px rgba(41, 40, 40, 0.75);
     padding-bottom: 100px;
+        background-color: rgb(248, 248, 248);
 }
 
-.emailput {
+.emailkk {
 margin: 40px -100px;
-    background-color: rgb(255, 255, 255);
+   border: 1px solid rgb(88, 88, 88);
+   border-radius: 10px 10px 10px 10px;
 padding: 10px;
+background-color: rgb(243, 243, 243);
+color: rgb(88, 88, 88)
 }
 
 .form-control:focus {
@@ -58,6 +71,7 @@ padding: 10px;
 
 
 
+
 h2 {
     margin: 30px auto;
     text-align: center;
@@ -68,3 +82,9 @@ h2 {
     margin: -50px auto;
     display: block;
 }
+
+.form-control {
+    border: 1px solid rgb(165, 162, 162);
+    border-radius: 10px;
+}
+
