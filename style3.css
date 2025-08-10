@@ -30,11 +30,13 @@ li {
 
 header {
     padding: 10px 0;
+    background-color: rgb(221, 221, 221);
 }
 
 .logo {
-    width: 60%;
-    max-width: 400px;
+    width: 50%;
+    max-width: 300px;
+    min-width: 100px;
     margin-left: 5px;
     padding-top: 10px;
 }
